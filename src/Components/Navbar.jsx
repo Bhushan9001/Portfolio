@@ -14,7 +14,7 @@ function Navbar() {
     const [open, setOpen] = useState(false);
     return (
         <>
-            <div className='w-full fixed  top-0 left-0'>
+            <div className='w-full fixed z-10 top-0 left-0'>
                 <div className=' md:flex py-4 text-white bg-opacity-0 items-center justify-between backdrop-blur-2xl shadow-xl shadow-black bg-white px-7 md:px-10  '>
                     <div className='  flex h-20 w-20 rounded-full overflow-hidden  hover:scale-105 duration-300'>
                         <Link to='Home' smooth duration={500}><img src={banner} alt="" className='mx-auto' /></Link>
